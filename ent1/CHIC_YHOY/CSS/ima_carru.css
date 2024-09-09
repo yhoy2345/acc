@@ -1,0 +1,28 @@
+/* Ajustar el tamaño máximo de las imágenes del carrusel */
+.carousel-item img {
+    max-height: 500px; /* Ajusta este valor según tus necesidades */
+    max-width: 80%; /* Ajusta este valor para el ancho máximo */
+    width: auto;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Ajustar el contenedor del carrusel para que las imágenes se centren verticalmente */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del carrusel */
+.carousel {
+    margin: 0 auto; /* Centra el carrusel */
+    width: 80%; /* Ajusta este valor según tus necesidades */
+}
+/* Estilo para el encabezado centrado */
+.store-name {
+    text-align: center;
+    font-size: 3em; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: #8B4513; /* Color óxido */
+    margin-top: 20px;
+}

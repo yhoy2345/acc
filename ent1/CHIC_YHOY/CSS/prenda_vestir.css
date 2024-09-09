@@ -1,0 +1,99 @@
+.descripcion, .precio {
+    font-weight: bold;
+}
+.btn {
+    background-color: #f08080; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border-color: #f08080; /* Color del borde */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #ff6b6b; /* Color de fondo al pasar el cursor */
+    border-color: #ff6b6b; /* Color del borde al pasar el cursor */
+}
+.col-md-4 {
+    text-align: center; /* Centra el contenido dentro de la columna */
+}
+
+.col-md-4 p {
+    margin-top: 10px; /* Espacio superior */
+    font-weight: bold; /* Texto en negrita */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.total-carrito {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-carrito h2 {
+    margin-top: 0;
+}
+
+.descripcion {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.precio {
+    margin-bottom: 10px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
