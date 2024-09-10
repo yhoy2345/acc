@@ -89,7 +89,7 @@
                             </div>
                             <br>
                             <div class="mb-3">
-                                <input type="submit" value="Guardar" class="btn btn-success" name="registrar">
+                                <input type="submit" value="Registar" class="btn btn-success" name="registrar">
                                 <a href="usuario.php" class="btn btn-danger">Cancelar</a>
                                 <a href="login.php" class="btn btn-primary">Ir al Login</a>
                             </div>

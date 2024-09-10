@@ -24,7 +24,7 @@ function insertarProducto($conexion, $nombre, $correo, $telefono, $direccion, $f
     // Ejecutar la consulta
     if ($stmt->execute()) {
         // Mostrar mensaje de éxito
-        echo '<div class="success-message">Producto ingresado correctamente.</div>';
+        echo '<div class="success-message">Usuario ingresado correctamente.</div>';
         echo "<script>setTimeout(function(){window.location.href='index.php';}, 1000);</script>";
     } else {
         echo "Error al insertar producto: " . $stmt->error;
